@@ -1,16 +1,15 @@
 ---
 ---
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600');
-//$primary: #33658A;
-$primary: #095e9e;
-$secondary: #9cc4de;
+$primary: #33658A;
+$secondary: #9eb6bd;
 $accent: #ec971f;
-
 $dark-light: #F2F2F2;
 $light: #FFFFFF;
 
 body {
   font-family: 'Poppins', sans-serif;
+  color: #373a3c;
 }
 
 h1 {
@@ -26,7 +25,7 @@ a {
   background: $primary;
   text-align: center;
   color: $light;
-  height: 100vh;
+  height: 80vh;
   position: relative;
 
   // #particles-js {
@@ -63,20 +62,41 @@ a {
     margin: 30px 0 15px;
   }
 
-  &::after {
-    content: '';
-    position: absolute;
-    left: -10px;
-    right: -10px;
-    bottom: 0;
-    display: block;
-    height: 50px;
-    background: url('/img/cover-bottom.svg') no-repeat;
-    background-size: 100%;
+  .social {
+    font-size: 28px;
+    margin: 10px;
+
+    a {
+      color: #fff;
+    }
+    
+    .fa { margin: 0 5px; }
   }
+
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   display: block;
+  //   height: 50px;
+  //   background: url('/img/cover-bottom.svg') no-repeat;
+  //   background-size: 100%;
+  // }
 }
 
 .bg-darker-light {
-  background: #074E83;
-  color: $secondary;
+  background: #2d5a7d;
+  color: $dark-light;
+}
+
+.footer {
+  
+}
+
+.footer .icons a {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 4px;
 }
