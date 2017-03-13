@@ -167,7 +167,7 @@ a {
 /* End of home page scroll view */
 
 
-/* Start of introduction page */
+/* Start of introduction section */
 #intro {
 
 }
@@ -187,11 +187,14 @@ a {
   padding-top: 5px;
 }
 
-/* End of introduction page */
+/* End of introduction section */
 
+
+/*Start of FAQ section*/
 #faq h2{
 
   padding: 50px 0px 50px 0px;
+  font-weight: bold;
 }
 
 #faq .row {
@@ -199,8 +202,26 @@ a {
   padding-bottom: 50px;
 }
 
+#faq .row h4{
+
+  font-weight: bold;
+}
+
 #faq .row .col {
 
-  padding: 10px 70px;
+  padding: 10px;
+  padding-right: 50px;
 }
+/*End of FAQ section*/
+
+/* Start of map page */
+#hacklocation {
+  padding: 30px 0px;
+}
+
+#hacklocation .map {
+
+  padding: 40px 0px;
+}
+
 
