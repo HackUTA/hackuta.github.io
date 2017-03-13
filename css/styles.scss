@@ -91,12 +91,27 @@ a {
   color: $dark-light;
 }
 
-.footer {
-  
+.map img {
+  max-height: 300px;
+  max-width: 100%;
 }
 
 .footer .icons a {
   color: #fff;
   font-size: 18px;
   margin: 0 4px;
+}
+
+@media (max-width: 550px) {
+  #main-cover {
+    height: 80vh;
+  }
+  
+  .cover-content {
+    h1 {
+      font-size: 3.8em;
+    } 
+  }
+
+  .faq { text-align: center; }
 }
