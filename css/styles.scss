@@ -195,23 +195,17 @@ a {
 
 
 /* Start of introduction section */
+
 #intro {
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#intro .header {
+#intro .container .header {
 
-  padding-top: 50px;
-}
-
-#intro .para-info {
-
-  padding: 60px 200px 70px 200px;
-  font-size: 19px;
-}
-
-#intro .para-info p {
-  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 /* End of introduction section */
