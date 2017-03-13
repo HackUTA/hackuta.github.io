@@ -6,6 +6,7 @@ $secondary: #9eb6bd;
 $accent: #ec971f;
 $dark-light: #F2F2F2;
 $light: #FFFFFF;
+$red: #801515;
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -25,7 +26,7 @@ a {
   background: $primary;
   text-align: center;
   color: $light;
-  height: 80vh;
+  height: 100vh;
   position: relative;
 
   // #particles-js {
@@ -60,6 +61,14 @@ a {
 
   .cover-buttons {
     margin: 30px 0 15px;
+  }
+  
+  .cover-buttons a {
+    margin: 0 7px;
+  }
+
+  .cover-buttons a:hover{
+    background-color: $secondary;
   }
 
   .social {
@@ -114,4 +123,43 @@ a {
   }
 
   .faq { text-align: center; }
+}
+
+
+#scroll a {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding-top: 60px;
+}
+
+#scroll a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+#scroll a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
 }
