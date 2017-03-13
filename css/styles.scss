@@ -125,7 +125,7 @@ a {
   .faq { text-align: center; }
 }
 
-
+/* Home page scroll view. */
 #scroll a {
   position: absolute;
   bottom: 30px;
@@ -163,3 +163,32 @@ a {
   transform: rotate(-45deg);
   box-sizing: border-box;
 }
+
+/* End of home page scroll view */
+
+
+/* Start of introduction page */
+#intro {
+
+}
+
+#intro .header {
+
+  padding-top: 50px;
+}
+
+#intro .para-info {
+
+  padding: 60px 200px 70px 200px;
+  font-size: 19px;
+}
+
+#intro .para-info p {
+  padding-top: 5px;
+}
+
+/* End of introduction page */
+
+
+
+
