@@ -15,7 +15,7 @@ faq: [
   ],
   [
     "Can I work on something I've already created?",
-    "If you'd like to be judged, no. Masters thesis, your previous mobile apps, previous anything, homework. Unles you're starting from scratch and creating something new in 24 hours, it goes against the hackathon spirit."
+    "If you'd like to be judged, no. Masters thesis, your previous mobile apps, previous anything, homework. Unless you're starting from scratch and creating something new in 24 hours, it goes against the hackathon spirit."
   ],
   [
     "Who can attend?",
@@ -23,7 +23,7 @@ faq: [
   ],
   [
     "Teams?",
-    "Teams can be up to 4 people. If you don't have a team yet, we'll help you find out! You can do it alone but it's not as fun."
+    "Teams can be up to 4 people. If you don't have a team yet, we'll help you find one! You can do it alone, but it's not as fun."
   ],
   [
     "What if I don't have experience?",

@@ -6,6 +6,7 @@ $secondary: #9eb6bd;
 $accent: #ec971f;
 $dark-light: #F2F2F2;
 $light: #FFFFFF;
+$red: #801515;
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -61,6 +62,14 @@ a {
   .cover-buttons {
     margin: 30px 0 15px;
   }
+  
+  .cover-buttons a {
+    margin: 0 7px;
+  }
+
+  .cover-buttons a:hover{
+    background-color: $secondary;
+  }
 
   .social {
     font-size: 28px;
@@ -103,10 +112,6 @@ a {
 }
 
 @media (max-width: 550px) {
-  #main-cover {
-    height: 100vh;
-  }
-  
   .cover-content {
     h1 {
       font-size: 3.8em;
@@ -114,4 +119,132 @@ a {
   }
 
   .faq { text-align: center; }
+}
+
+/* Home page scroll view. */
+#scroll a {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding-top: 60px;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+#scroll a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+#scroll a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+/* End of home page scroll view */
+
+
+/* Start of introduction section */
+
+#intro {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#intro .container .header {
+
+  padding-bottom: 20px;
+}
+
+/* End of introduction section */
+
+
+/*Start of FAQ section*/
+#faq h2{
+
+  padding: 50px 0px 50px 0px;
+  font-weight: bold;
+}
+
+#faq .row {
+
+  padding-bottom: 50px;
+}
+
+#faq .row h4{
+
+  font-weight: bold;
+}
+
+#faq .row .col {
+
+  padding: 10px;
+  padding-right: 50px;
+}
+/*End of FAQ section*/
+
+/* Start of map page */
+#hacklocation {
+  padding: 30px 0px;
+}
+
+#hacklocation .map {
+  padding: 40px 0px;
+}
+
+.partners img {
+  filter: grayscale(100%);
+  transition: all 0.2s linear;
+
+  &:hover {
+    filter: grayscale(0%);
+  }
 }
