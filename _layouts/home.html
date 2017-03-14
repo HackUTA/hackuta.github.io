@@ -18,17 +18,8 @@
   </head>
   <body>
     {{ content }}
-    
   
-    <!-- Couldn't get bower to install the Jquery files and the 
-         existing one gives a 404 not found. I can't find it in the 
-         directory eiter. Replace one fixed :D -->
-    <script
-      src="https://code.jquery.com/jquery-3.1.1.min.js"
-      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-      crossorigin="anonymous"></script>
-  
-    <script src="bower_components/jQuery/dist/jquery.slim.min.js"></script>
+    <script src="bower_components/jQuery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
     <script src="bower_components/particles.js/particles.min.js"></script>
     <script>
@@ -48,9 +39,10 @@
     <script>
       $(document).ready(function() {
   
-          $('#scroll').click(function() {
+          $('#scroll').click(function(e) {
+            e.preventDefault();
             console.log('WORK, YOU SON OF A ...');
-           $('html, body').animate({scrollTop: $('#intro').offset().top}, 'slow');
+           $("html, body").animate({scrollTop: $('#intro').offset().top}, 'slow');
            return false;
           });
       });

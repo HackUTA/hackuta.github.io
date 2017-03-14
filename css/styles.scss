@@ -112,10 +112,6 @@ a {
 }
 
 @media (max-width: 550px) {
-  #main-cover {
-    height: 80vh;
-  }
-  
   .cover-content {
     h1 {
       font-size: 3.8em;
@@ -241,18 +237,14 @@ a {
 }
 
 #hacklocation .map {
-
   padding: 40px 0px;
 }
 
-#sponsors {
+.partners img {
+  filter: grayscale(100%);
+  transition: all 0.2s linear;
 
-  height: 40vh;
-  display: flex;
-  align-items: center;
-}
-
-.sponsor-container h2{
-  
-  font-size: 3.2em;
+  &:hover {
+    filter: grayscale(0%);
+  }
 }
