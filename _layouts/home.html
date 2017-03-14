@@ -18,8 +18,8 @@
   </head>
   <body>
     {{ content }}
-
-    <script src="bower_components/jQuery/dist/jquery.slim.min.js"></script>
+  
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
     <script src="bower_components/particles.js/particles.min.js"></script>
     <script>
@@ -32,9 +32,21 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
+  
       ga('create', 'UA-93534845-1', 'auto');
       ga('send', 'pageview');
+    </script>
+    <script>
+      $(document).ready(function() {
+  
+          $('#scroll').click(function(e) {
+            e.preventDefault();
+            console.log('WORK, YOU SON OF A ...');
+           $("html, body").animate({scrollTop: $('#intro').offset().top}, 'slow');
+           return false;
+          });
+      });
+  
     </script>
   </body>
 </html>
