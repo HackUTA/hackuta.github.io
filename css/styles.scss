@@ -62,7 +62,7 @@ a {
   .cover-buttons {
     margin: 30px 0 15px;
   }
-  
+
   .cover-buttons a {
     margin: 0 7px;
   }
@@ -78,7 +78,7 @@ a {
     a {
       color: #fff;
     }
-    
+
     .fa { margin: 0 5px; }
   }
 
@@ -115,7 +115,7 @@ a {
   .cover-content {
     h1 {
       font-size: 3.8em;
-    } 
+    }
   }
 
   .faq { text-align: center; }
@@ -247,4 +247,8 @@ a {
   &:hover {
     filter: grayscale(0%);
   }
+}
+
+.partners .row {
+  margin-bottom: 20px;
 }
