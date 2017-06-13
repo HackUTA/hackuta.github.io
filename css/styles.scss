@@ -252,3 +252,15 @@ a {
 .partners .row {
   margin-bottom: 20px;
 }
+
+#mc-embedded-subscribe {
+    font-size: 1.3rem;width:100%;
+    cursor: pointer;
+}
+
+#mc-embedded-subscribe:hover {
+    background-color: #9eb6bd;
+    -moz-transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
