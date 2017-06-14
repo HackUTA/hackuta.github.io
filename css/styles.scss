@@ -18,6 +18,10 @@ h1 {
   font-size: 7.0em;
 }
 
+h2 {
+  font-weight: bold;
+}
+
 a {
   color: $accent;
 }
@@ -209,7 +213,6 @@ a {
 
 /*Start of FAQ section*/
 #faq h2{
-
   padding: 50px 0px 50px 0px;
   font-weight: bold;
 }
@@ -243,6 +246,8 @@ a {
 .partners img {
   filter: grayscale(100%);
   transition: all 0.2s linear;
+  max-height: 150px;
+  max-width: 250px;
 
   &:hover {
     filter: grayscale(0%);
