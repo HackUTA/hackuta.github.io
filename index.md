@@ -34,8 +34,12 @@ faq: [
     "Bring a valid student ID, yourself and anything to contribute to your hack. This includes a laptop, charger, mouse, keyboard, and your five 27\" monitors if you wanna be THAT kid."
   ],
   [
+    "Code of Conduct",
+    "Just do the thing your parents always told you to do. Treat others as you want to be treated. <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank'>Read me</a>"
+  ],
+  [
     "You didn't answer my questions",
-    "I'm sorry, we tried. Email us at hello@hackuta.com"
+    "I'm sorry, we tried. Email us at <a href='mailto:hello@hackuta.com'>hello@hackuta.com</a>"
   ]
 ]
 ---
