@@ -7,7 +7,7 @@ faq: [
   ],
   [
     "How do I apply?",
-    "We have not opened the registration yet. You can subscribe yourself to our email list. We will send out emails once the registration opens."
+    "We have not opened the registration yet. You can subscribe to our mailing list. We will send out emails once the registration opens."
   ],
   [
     "What can I make?",
