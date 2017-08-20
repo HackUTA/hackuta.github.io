@@ -7,7 +7,7 @@ faq: [
   ],
   [
     "How do I apply?",
-    "Just scroll up to the top and click on that \"Register\" button. Once you fill out the application you're good to go! We'll be sending out acceptance letters in the next few weeks."
+    "We have not opened the registration yet. You can subscribe yourself to our email list. We will send out emails once the registration opens."
   ],
   [
     "What can I make?",
@@ -19,7 +19,7 @@ faq: [
   ],
   [
     "Who can attend?",
-    "Any graduate/undergrate student who is over 18. Any experience, any background, any education, any text editor, you're welcome to attend!"
+    "Any graduate/undergraduate student who is over 18. Any experience, any background, any education, any text editor, you're welcome to attend!"
   ],
   [
     "Teams?",
