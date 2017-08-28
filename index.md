@@ -3,7 +3,7 @@ layout: home
 faq: [
   [
     "What's a hackathon?",
-    "A hackathon is best described as an "invention marathon". Anyone of any skill level is welcome to come and invent anything. If you want to build an iOS game, an IOT sticker vending machine, or even the next big social network, come to HackUTA!"
+    "A hackathon is best described as an 'invention marathon'. Anyone of any skill level is welcome to come and invent anything. If you want to build an iOS game, an IOT sticker vending machine, or even the next big social network, come to HackUTA!"
   ],
   [
     "How do I apply?",
