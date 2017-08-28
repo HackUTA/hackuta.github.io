@@ -19,7 +19,7 @@ faq: [
   ],
   [
     "Who can attend?",
-    "Any undergraduate student who is over 18. Any experience, any background, any education, any text editor, you're welcome to attend!"
+    "Any undergraduate student is eligible for HackUTA. Any experience, any background, any education, any text editor, you're welcome to attend!"
   ],
   [
     "Can I work with a team?",
