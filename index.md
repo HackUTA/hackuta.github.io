@@ -2,7 +2,7 @@
 layout: home
 faq: [
   [
-    "What's a hackathon?",
+    "What is a hackathon?",
     "A hackathon is best described as an 'invention marathon'. Anyone of any skill level is welcome to come and invent anything. If you want to build an iOS game, an IOT sticker vending machine, or even the next big social network, come to HackUTA!"
   ],
   [
@@ -22,8 +22,8 @@ faq: [
     "Any undergraduate student who is over 18. Any experience, any background, any education, any text editor, you're welcome to attend!"
   ],
   [
-    "Teams?",
-    "Teams can be up to 4 people. If you don't have a team yet, we'll help you find one! You can do it alone, but it's not as fun."
+    "Can I work with a team?",
+    "Yes, teams can be up to 4 people. If you don't have a team yet, we'll help you find one! You can do it alone, but it's not as fun."
   ],
   [
     "What if I don't have experience?",
@@ -38,8 +38,8 @@ faq: [
     "Just do the thing your parents always told you to do. Treat others as you want to be treated. <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank'>Read me</a>"
   ],
   [
-    "You didn't answer my questions",
-    "I'm sorry, we tried. Email us at <a href='mailto:hello@hackuta.com'>hello@hackuta.com</a>"
+    "I have more questions",
+    "Email us at <a href='mailto:hello@hackuta.com'>hello@hackuta.com</a>, and we will reply as soon as we can!"
   ]
 ]
 ---
