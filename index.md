@@ -27,7 +27,7 @@ faq: [
   ],
   [
     "What if I don't have experience?",
-    "That is 100% Okay! We will have several workshops, mentors and even skilled students to help you out! We just want you to have fun and build something cool."
+    "That is 100% okay! We will have several workshops, mentors and even skilled students to help you out! We just want you to have fun and build something cool."
   ],
   [
     "What should I bring?",
