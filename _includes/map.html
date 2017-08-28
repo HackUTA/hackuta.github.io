@@ -1,13 +1,28 @@
-<section class="bg-darker-light text-center container-fluid py-3">
+<section class="bg-darker-light container-fluid">
+  <a name="schedule-and-location"></a>
+  <div class="container py-3">
+    <div class="row">
+      <div class="col-md-12 text-center schedule-location">
+        <h2>Schedule and Location</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        {% include schedule.html %}
+      </div>
 
-	<div id="hacklocation">
-		<h2>Where is HackUTA?</h2>
-		<p>
-			Nedderman Hall<br />
-			Arlington, TX 76010
-		</p>
-		<div class="map">
-			<a href="https://www.google.com/maps/place/Nedderman+Hall/"><img src="https://maps.googleapis.com/maps/api/staticmap?autoscale=2&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7CNedderman+Hall&key=AIzaSyCGjeXX-s7K_4iGO2yGP2Ex1x_n_Jhec7k" alt="Google Map of Nedderman Hall"></a>
-		</div>
-	</div>
+      <div class="col-md-6">
+      	<div id="hacklocation" class="text-center">
+      		<p>
+      			Nedderman Hall<br />
+            416 Yates St<br />
+      			Arlington, TX 76010
+      		</p>
+      		<div class="map">
+      			<a href="https://www.google.com/maps/place/Nedderman+Hall/" target="_blank"><img src="https://maps.googleapis.com/maps/api/staticmap?autoscale=2&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7CNedderman+Hall&key=AIzaSyCGjeXX-s7K_4iGO2yGP2Ex1x_n_Jhec7k" alt="Google Map of Nedderman Hall"></a>
+      		</div>
+      	</div>
+      </div>
+    </div>
+  </div>
 </section>
