@@ -14,8 +14,8 @@ faq: [
     "Whatever your heart desires! A website, an app, a video game with super VR features, a robot that gives people high fives, the list goes on. Your project will be judged based off its creativity, innovation, coolness factor and technical skills involved."
   ],
   [
-    "Can I work on something I've already created?",
-    "If you'd like to be judged, no. Masters thesis, your previous mobile apps, previous anything, homework. Unless you're starting from scratch and creating something new in 24 hours, it goes against the hackathon spirit."
+    "Can I submit previous work?",
+    "Do not cheapen the HackUTA experience by submitting any previous work or class assignments. Doing so will disqualify your team from final judging and awards."
   ],
   [
     "Who can attend?",
