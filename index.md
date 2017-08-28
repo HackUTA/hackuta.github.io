@@ -7,7 +7,7 @@ faq: [
   ],
   [
     "How do I apply?",
-    "Registration opens at noon on August 28th CDT. If you <a href='#top'>subscribe</a> to our mailing list, we will send you updates!"
+    "Registration is open! Click on the <a href='#top'>Register</a> button to start applying!"
   ],
   [
     "What can I make?",
