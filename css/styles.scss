@@ -152,6 +152,7 @@ a {
   border: 1px solid #fff;
   border-radius: 100%;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 #scroll a span::after {
@@ -168,6 +169,7 @@ a {
   transform: rotate(-45deg);
   box-sizing: border-box;
 }
+
 
 @keyframes bounce {
   0%,
