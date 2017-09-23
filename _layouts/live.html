@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Live - HackUTA</title>
+    <meta name="author" content="HackUTA">
+    <meta name="description" content="HackUTA Live. University of Texas at Arlington's very first 24 hour hackathon">
+    <meta name="keywords" content="live, hackuta, hackathon, University of Texas at Arlington">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Live - HackUTA" />
+    <meta property="og:description" content="HackUTA Live. University of Texas at Arlington's very first 24 hour hackathon" />
+    <meta property="og:url" content="http://hackuta.com/live" />
+    <meta property="og:image" content="/img/hackuta_logo.png" />
+
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body class="live">
+  <section id="main-cover" class="cover">
+    <div id="particles-js"></div>
+    <div class="container-fluid">
+
+      <div class="row margin-bottom">
+        <div id="logo" class="col-md-12">
+          <img src="/img/logo.png" class="float-left margin-bottom" style="max-height:150px;" alt="HackUTA Logo">
+          <div class="d-flex align-items-start">
+            <p class="display-4">Live</p>
+            <p class="lead">Stay up to date</p>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="row margin-bottom">
+                <div class="col-md-8">
+                  <div class="card">
+                    <h4 class="card-header">Hackathon Schedule</h4>
+                    <div class="card-body" style="max-height: 320px; overflow: scroll;">
+                      <table class="table table-hover">
+                        <tbody>
+                          {% for item in page.schedule %}
+                          <tr>
+                            <td>{{item[2]}}</td>
+                            <td>{{item[0]}}, {{item[1]}}</td>
+                            <td>{{item[3]}}</td>
+                          </tr>
+                    			{% endfor %}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <span class="display-1">200</span><br />
+                      <span class="lead">tracked git commits</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card">
+                    <h4 class="card-header">Track Specifications</h4>
+                    <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card">
+                    <h4 class="card-header">Useful links</h4>
+                    <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card">
+                    <h4 class="card-header">Floor Plan</h4>
+                    <div class="card-body">
+                      floor plan
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-3">
+              <div class="card">
+                <h4 class="card-header">Twitter Feeds</h4>
+                <div class="card-body">
+                  <a class="twitter-timeline" data-height="600" href="https://twitter.com/HackUTA">Tweets by HackUTA</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<footer class="bg-darker-light text-center container-fluid py-3 footer">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">&copy; Copyright 2017 HackUTA</div>
+  </div>
+</footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
+    <script src="bower_components/particles.js/particles.min.js"></script>
+    <script>
+      particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-93534845-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
