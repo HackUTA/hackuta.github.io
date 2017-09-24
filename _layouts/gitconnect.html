@@ -41,7 +41,8 @@
         $.ajax({
         url: 'https://github.com/login/oauth/authorize',
         headers: {
-            'X_CSRF_TOKEN':'alksfdjalsjflaksdf234lkj234SDFSDflwkerj'
+            'X_CSRF_TOKEN':'alksfdjalsjflaksdf234lkj234SDFSDflwkerj',
+            'Access-Control-Allow-Origin': '*'
         },
         method: 'GET',
         dataType: 'json',
