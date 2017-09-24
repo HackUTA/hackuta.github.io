@@ -24,7 +24,7 @@
   </head>
   <body>
   <section>
-    <button onClick="getGitHubcode()" class="btn btn-primary">Authorize</button>
+    <a href="http://github.com/login/oauth/authorize?client_id=7682d81eae681bc0ace1" class="btn btn-primary">Authorize</a>
   </section>
 
 <footer class="bg-darker-light text-center container-fluid py-3 footer">
@@ -36,24 +36,6 @@
 
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript">
-      function getGitHubcode() {
-        $.ajax({
-        url: 'http://github.com/login/oauth/authorize',
-        contentType: 'plain/text',
-        headers: {
-            'X_CSRF_TOKEN':'alksfdjalsjflaksdf234lkj234SDFSDflwkerj',
-            'Access-Control-Allow-Origin': '*',
-            'client_id': '7682d81eae681bc0ace1'
-        },
-        method: 'GET',
-        data: {},
-        success: function(data){
-          console.log('succes: '+data);
-        }
-      });
-      }
-    </script>
     <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
