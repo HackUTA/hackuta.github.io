@@ -21,6 +21,12 @@ schedule: [
     ],
     [
       "09/30",
+      "12:00 pm - 01:00 pm",
+      "Team Building Workshop",
+      ""
+    ],
+    [
+      "09/30",
       "12:30 pm",
       "Lunch",
       ""
@@ -29,6 +35,12 @@ schedule: [
       "09/30",
       "03:00 pm",
       "React Workshop by Allstate",
+      ""
+    ],
+    [
+      "09/30",
+      "05:00pm-06:00pm",
+      "iOS Workshop",
       ""
     ],
     [
