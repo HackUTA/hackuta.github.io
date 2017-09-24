@@ -39,14 +39,15 @@
     <script type="text/javascript">
       function getGitHubcode() {
         $.ajax({
-        url: 'https://github.com/login/oauth/authorize',
+        url: 'http://github.com/login/oauth/authorize',
+        contentType: 'plain/text',
         headers: {
             'X_CSRF_TOKEN':'alksfdjalsjflaksdf234lkj234SDFSDflwkerj',
-            'Access-Control-Allow-Origin': '*'
+            'Access-Control-Allow-Origin': '*',
+            'client_id': '7682d81eae681bc0ace1'
         },
         method: 'GET',
-        dataType: 'json',
-        data: {'client_id':'7682d81eae681bc0ace1'},
+        data: {},
         success: function(data){
           console.log('succes: '+data);
         }
