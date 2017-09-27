@@ -300,7 +300,7 @@ a {
   font-size: 2rem;
 }
 
-.live #main-cover {
+.live {
   background-color: #145080;
   color:#373a3c;
 }
@@ -311,4 +311,28 @@ a {
 
 .margin-bottom {
   margin-bottom:25px;
+}
+
+.overflow-scroll {
+  max-height: 210px;
+  overflow: scroll;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 55px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 55px;
+  line-height: 55px; /* Vertically center the text there */
 }
