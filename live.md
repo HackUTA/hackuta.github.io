@@ -75,6 +75,12 @@ schedule: [
     ],
     [
       "10/01",
+      "10:00 am",
+      "Engineering at Allstate",
+      "Palo Pinto/San Saba"
+    ],
+    [
+      "10/01",
       "12:00 pm",
       "Hacking ends & Lunch",
       "Guadalupe"
