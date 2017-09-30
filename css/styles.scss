@@ -245,6 +245,10 @@ a {
   padding: 30px 0px;
 }
 
+.drink-sponsors img {
+  max-height: 120px;
+}
+
 .partners img {
   filter: grayscale(100%);
   transition: all 0.2s linear;
@@ -298,4 +302,41 @@ a {
 #register {
   padding: .75rem 2.5rem !important;
   font-size: 2rem;
+}
+
+.live {
+  background-color: #145080;
+  color:#373a3c;
+}
+
+#logo {
+  color: #FFFFFF;
+}
+
+.margin-bottom {
+  margin-bottom:25px;
+}
+
+.overflow-scroll {
+  max-height: 210px;
+  overflow: scroll;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 55px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 55px;
+  line-height: 55px; /* Vertically center the text there */
 }
