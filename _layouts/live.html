@@ -38,9 +38,9 @@
 
         <div class="col-md-12">
           <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-6">
               <div class="row">
-                <div class="col-md-8 margin-bottom">
+                <div class="col-md-12 margin-bottom">
                   <div class="card">
                     <h4 class="card-header">Hackathon Schedule</h4>
                     <div class="card-body" style="max-height: 320px; overflow: scroll;">
@@ -59,19 +59,10 @@
                   </div>
                 </div>
 
-                <div class="col-md-4 margin-bottom">
-                  <div class="card">
-                    <div class="card-body text-center">
-                      <span class="display-1">200</span><br />
-                      <span class="lead">tracked git commits</span>
-                    </div>
-                  </div>
-                </div>
-
               </div>
 
               <div class="row">
-                <div class="col-md-4 margin-bottom">
+                <div class="col-md-6 margin-bottom">
                   <div class="card">
                     <h4 class="card-header">Track Specifications</h4>
                     <div class="card-body overflow-scroll">
@@ -91,7 +82,7 @@
                   </div>
                 </div>
 
-                <div class="col-md-4 margin-bottom">
+                <div class="col-md-6 margin-bottom">
                   <div class="card">
                     <h4 class="card-header">Useful links</h4>
                     <div class="card-body">
@@ -105,16 +96,18 @@
                   </div>
                 </div>
 
-                <div class="col-md-4 margin-bottom">
-                  <div class="card">
-                    <h4 class="card-header">Floor Plan</h4>
-                    <div class="card-body">
-                      floor plan
-                    </div>
-                  </div>
-                </div>
               </div>
 
+            </div>
+
+            <div class="col-md-3 margin-bottom">
+              <div class="card">
+                <h4 class="card-header">Floor Plan</h4>
+                <div class="card-body text-center">
+                  <img src="/img/floor_plan.jpg" class="img-fluid margin-bottom" style="cursor:pointer;" data-toggle="modal" data-target="#myModal" alt="UC Floor Plan" />
+                  <a href="https://www.uta.edu/utaaa/_downloads/pdf/UTA-University-Center-Map-2012.pdf" target="_blank" class="btn btn-primary margin-bottom">PDF Link</a>
+                </div>
+              </div>
             </div>
 
             <div class="col-md-3 margin-bottom">
@@ -133,10 +126,20 @@
     </div>
   </section>
 
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="/img/floor_plan.jpg" class="img-fluid margin-bottom" alt="UC Floor Plan" />
+        </div>
+      </div>
+    </div>
+  </div>
+
   {{content}}
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/particles.js/particles.min.js"></script>
     <script>
       particlesJS.load('particles-js', 'particles.json', function() {
