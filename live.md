@@ -62,6 +62,12 @@ schedule: [
       "Palo Pinto/San Saba"
     ],
     [
+      "09/30",
+      "10:00 pm",
+      "Pitching  Workshop",
+      "Palo Pinto/San Saba"
+    ],
+    [
       "10/01",
       "12:00 am",
       "Midnight Snack",
