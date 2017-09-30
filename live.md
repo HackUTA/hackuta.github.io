@@ -45,7 +45,7 @@ schedule: [
     ],
     [
       "09/30",
-      "06:30 pm",
+      "07:30 pm",
       "Dinner",
       "Guadalupe"
     ],
