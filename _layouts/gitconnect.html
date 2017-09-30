@@ -23,18 +23,22 @@
     <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
-  <section>
-    <a id="github-authorize" href="http://github.com/login/oauth/authorize?client_id=76f1cb59598f737c55bb" class="btn btn-primary">Authorize</a>
-  </section>
+   <div id="particles-js">
+     <section id="main-cover">
+      <div class="cover-content">
+        <h2> Let's get you started! </h2>
+        <a href="http://github.com/login/oauth/authorize?client_id=76f1cb59598f737c55bb" class="btn btn-lg">Authorize</a>
+      </div>
+     </section>
+   </div>
 
-<footer class="bg-darker-light text-center container-fluid py-3 footer">
-  <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">&copy; Copyright 2017 HackUTA</div>
-  </div>
-</footer>
+   <footer class="bg-darker-light text-center container-fluid py-3 footer">
+     <div class="row">
+       <div class="col-md-4"></div>
+       <div class="col-md-4">&copy; Copyright 2017 HackUTA</div>
+     </div>
+   </footer>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript">
       queryListner();
       function queryListner() {
@@ -50,6 +54,8 @@
         console.log(code);
       }
     </script>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
