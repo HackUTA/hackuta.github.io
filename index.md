@@ -7,7 +7,7 @@ faq: [
   ],
   [
     "How do I apply?",
-    "Registration is open! Click on the <a href='#top'>Register</a> button to start applying!"
+    "Registration will open on September 5"
   ],
   [
     "What can I make?",
@@ -39,7 +39,7 @@ faq: [
   ],
   [
     "I have more questions",
-    "Email us at <a href='mailto:hello@hackuta.com'>hello@hackuta.com</a>, and we will reply as soon as we can!"
+    "Email us at <a href='mailto:uta.mavhack@gmail.com'>uta.mavhack@gmail.com</a>, and we will reply as soon as we can!"
   ]
 ]
 ---
