@@ -39,7 +39,7 @@ faq: [
   ],
   [
     "I have more questions",
-    "Email us at <a href='mailto:uta.mavhack@gmail.com'>uta.mavhack@gmail.com</a>, and we will reply as soon as we can!"
+    "Email us at <a href='mailto:hackuta.team@gmail.com'>hackuta.team@gmail.com</a>, and we will reply as soon as we can!"
   ]
 ]
 ---
