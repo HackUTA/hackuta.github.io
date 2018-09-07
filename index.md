@@ -7,7 +7,7 @@ faq: [
   ],
   [
     "How do I apply?",
-    "Registration will open on September 5"
+    "Registration has opened. <a href='https://hackuta2018.typeform.com/to/xRoIAo' target='_blank'> Register Here</a> "
   ],
   [
     "What can I make?",
