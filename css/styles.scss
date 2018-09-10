@@ -248,17 +248,20 @@ a {
 .drink-sponsors img {
   max-height: 120px;
 }
-
+/*
+ turns content grayscale until you hover over it
 .partners img {
   filter: grayscale(100%);
   transition: all 0.2s linear;
   max-height: 150px;
   max-width: 250px;
 
+
   &:hover {
     filter: grayscale(0%);
   }
 }
+*/
 
 .partners .row {
   margin-bottom: 20px;
