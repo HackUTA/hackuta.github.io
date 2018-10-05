@@ -7,7 +7,7 @@ faq: [
   ],
   [
   "How can I register for parking?",
-  "<a href="https://uta.nupark.com/events/Events/Register/50748480-ef1e-4cc9-86fb-402b355576a9">Register for parking permit here</a>"
+  "<a href='https://uta.nupark.com/events/Events/Register/50748480-ef1e-4cc9-86fb-402b355576a9'>Register for parking permit here</a>"
 
   ],
   [
