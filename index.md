@@ -5,12 +5,8 @@ faq: [
     "What is a hackathon?",
     "A hackathon is best described as an 'invention marathon'. Anyone of any skill level is welcome to come and invent anything. If you want to build an iOS game, an IOT sticker vending machine, or even the next big social network, come to HackUTA!"
   ],
-   <!--[
-    "How do I apply?",
-    "Registration has opened. <a href='https://hackuta2018.typeform.com/to/xRoIAo' target='_blank'> Register Here</a> "
-  ], -->
   [
-  "How can I register for parking?".
+  "How can I register for parking?",
   "<a href="https://uta.nupark.com/events/Events/Register/50748480-ef1e-4cc9-86fb-402b355576a9">Register for parking permit here</a>"
 
   ],
