@@ -339,8 +339,8 @@ html {
   min-height: 100%;
 }
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 55px;
+  /* Margin bottom by footer height; Don't need this until we add footer */
+  /* margin-bottom: 55px; */
 }
 .footer {
   position: absolute;
