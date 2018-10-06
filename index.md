@@ -34,6 +34,9 @@ faq: [
     "What should I bring?",
     "Bring a valid student ID, yourself and anything to contribute to your hack. This includes a laptop, charger, mouse, keyboard, and your five 27\" monitors if you wanna be THAT kid."
   ],
+  ["What prizes can I win?",
+  "Check out the prizes you can win<a href='https://hack.mlh.io/prizes/' target='_blank'> here</a> "
+  ],
   [
     "Code of Conduct",
     "Just do the thing your parents always told you to do. Treat others as you want to be treated. <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank'>Read me</a>"
