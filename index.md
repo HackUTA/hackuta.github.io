@@ -7,7 +7,7 @@ faq: [
   ],
   [
 		"How can I register for parking?",
-		"<a href='https://uta.nupark.com/events/Events/Register/b3ea9ac3-6b80-4316-accb-0b4e816945cd?fbclid=IwAR2YCLcbSdJJLG0zd7KoAKC4ck9xZH5tnmm0xVD8KSyPba_n7fq0MY_L3CQ'>Register for parking permit here</a>. <br> <img src='/img/parking.png'>"
+		"<a href='https://uta.nupark.com/events/Events/Register/b3ea9ac3-6b80-4316-accb-0b4e816945cd?fbclid=IwAR2YCLcbSdJJLG0zd7KoAKC4ck9xZH5tnmm0xVD8KSyPba_n7fq0MY_L3CQ' width='320'>Register for parking permit here</a>. <br> <img src='/img/parking.png'>"
   ],
   [
     "What can I make?",
